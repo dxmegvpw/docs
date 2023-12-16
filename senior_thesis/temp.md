@@ -24,7 +24,7 @@ $$
                 \int\text{d}^{2}\theta
                 \left(
                     \frac{1}{4g^2}
-                    \text{Tr}\ \mathcal{W}^{\alpha}\mathcal{W}  _  {\alpha}
+                    \text{Tr}\ \mathcal{W}^{\alpha}\mathcal{W} _ {\alpha}
                     +
                     \mathcal{W}
                 \right)
@@ -541,138 +541,6 @@ Thus the Kähler potential satisfies
 $$
     \begin{align}
         \mathcal{K}
-        &=
-        \frac{2}{g^2}h^{\bar{i}j}
-        \text{Tr}\left[\vphantom{\frac{1}{2}}\right.
-            \underline{\bar{\phi} _ {\bar{i}}\phi _ {j}}
-            +
-            \braket{\bar{\phi} _ {\bar{i}}}\phi _ {j}
-            +        
-            \bar{\phi} _ {\bar{i}}\braket{\phi _ {j}}
-            +
-            \braket{\bar{\phi} _ {\bar{i}}}\braket{\phi _ {j}}
-            -
-            \underline{\sqrt{2}\bar{\phi} _ {\bar{i}}(\partial _ {j}V)}
-            -
-            \underline{\sqrt{2}\braket{\bar{\phi} _ {\bar{i}}}(\partial _ {j}V)}
-        \nonumber
-        \\
-        &\qquad
-            +
-            \underline{\bar{\phi} _ {\bar{i}}\phi _ {j}V}
-            +
-            \underline{\braket{\bar{\phi} _ {\bar{i}}}\phi _ {j}V}
-            +
-            \underline{\bar{\phi} _ {\bar{i}}\braket{\phi _ {j}}V}
-            +
-            \braket{\bar{\phi} _ {\bar{i}}}\braket{\phi _ {j}}V
-            -
-            \underline{\frac{1}{\sqrt{2}}\bar{\phi} _ {\bar{i}}(\partial _ {j}V)V}
-            -
-            \underline{\frac{1}{\sqrt{2}}\braket{\bar{\phi} _ {\bar{i}}}(\partial _ {j}V)V}
-        \nonumber
-        \\
-        &\qquad
-            -
-            \underline{\frac{1}{\sqrt{2}}\bar{\phi} _ {\bar{i}}V(\partial _ {j}V)}
-            -
-            \underline{\frac{1}{\sqrt{2}}\braket{\bar{\phi} _ {\bar{i}}}V(\partial _ {j}V)}
-            +
-            \underline{\frac{1}{2}\bar{\phi} _ {\bar{i}}\phi _ {j}V^2}
-            +
-            \underline{\frac{1}{2}\braket{\bar{\phi} _ {\bar{i}}}\phi _ {j}V^2}
-            +
-            \underline{\frac{1}{2}\bar{\phi} _ {\bar{i}}\braket{\phi _ {j}}V^2}
-            +
-            \underline{\frac{1}{2}\braket{\bar{\phi} _ {\bar{i}}}\braket{\phi _ {j}}V^2}
-        \nonumber
-    \end{align}
-$$
-
-$$
-    \begin{align}
-        &\qquad
-            -
-            \underline{\sqrt{2}(\bar{\partial} _ {\bar{i}}V)\phi _ {j}}
-            -
-            \underline{\sqrt{2}(\bar{\partial} _ {\bar{i}}V)\braket{\phi _ {j}}}
-            +
-            \underline{(\bar{\partial} _ {\bar{i}}V)(\partial _ {j}V)}
-            -
-            \underline{\sqrt{2}(\bar{\partial} _ {\bar{i}}V)\phi _ {j}V}
-            -
-            \underline{\sqrt{2}(\bar{\partial} _ {\bar{i}}V)\braket{\phi _ {j}}V}
-            -
-            \underline{\bar{\phi} _ {\bar{i}}V\phi _ {j}}
-        \nonumber
-        \\
-        &\qquad
-            -
-            \underline{\braket{\bar{\phi} _ {\bar{i}}}V\phi _ {j}}
-            -
-            \underline{\bar{\phi} _ {\bar{i}}V\braket{\phi _ {j}}}
-            -
-            \braket{\bar{\phi} _ {\bar{i}}}V\braket{\phi _ {j}}
-            +
-            \underline{\sqrt{2}\bar{\phi} _ {\bar{i}}
-            V
-            \partial _ {j}V}
-            +
-            \underline{\sqrt{2}\braket{\bar{\phi} _ {\bar{i}}}
-            V
-            \partial _ {j}V}
-            -
-            \underline{\bar{\phi} _ {\bar{i}}
-            V
-            \phi _ {j}
-            V}
-            -
-            \underline{\braket{\bar{\phi} _ {\bar{i}}}
-            V
-            \phi _ {j}
-            V}
-        \nonumber
-        \\
-        &\qquad
-            -
-            \underline{\bar{\phi} _ {\bar{i}}
-            V
-            \braket{\phi _ {j}}
-            V}
-            -
-            \underline{\braket{\bar{\phi} _ {\bar{i}}}
-            V
-            \braket{\phi _ {j}}}
-            V
-            +
-            \underline{\frac{1}{\sqrt{2}}
-            (\bar{\partial} _ {\bar{i}}V)V\phi _ {j}}
-            +
-            \underline{\frac{1}{\sqrt{2}}
-            (\bar{\partial} _ {\bar{i}}V)V\braket{\phi _ {j}}}
-        \nonumber
-        \\
-        &\qquad
-            +
-            \underline{\frac{1}{\sqrt{2}}V(\bar{\partial} _ {\bar{i}}V)\phi _ {j}}
-            +
-            \underline{\frac{1}{\sqrt{2}}V(\bar{\partial} _ {\bar{i}}V)\braket{\phi _ {j}}}
-            +
-            \underline{\frac{1}{2}\bar{\phi} _ {\bar{i}}V^2\phi _ {j}}
-            +
-            \underline{\frac{1}{2}\braket{\bar{\phi} _ {\bar{i}}}V^2\phi _ {j}}
-            +
-            \underline{\frac{1}{2}\bar{\phi} _ {\bar{i}}V^2\braket{\phi _ {j}}}
-            +
-            \underline{\frac{1}{2}\braket{\bar{\phi} _ {\bar{i}}}V^2\braket{\phi _ {j}}}
-        \left.\vphantom{\frac{1}{2}}
-        \right]
-        \nonumber
-    \end{align}
-$$
-and at last
-$$
-    \begin{align}
         &=
         \frac{2}{g^2}h^{\bar{i}j}\text{Tr}\left[\vphantom{\frac{1}{2}}\right.
             \bar{\phi} _ {\bar{i}}\phi _ {j}
